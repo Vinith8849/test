@@ -1,0 +1,4 @@
+select * from employees
+select count(*) from employees
+select sl.no,count(student) from employee 
+group by sl.no
